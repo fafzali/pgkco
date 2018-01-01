@@ -170,7 +170,7 @@ div > i {
 
 .display {
 	background-color: #f2f2f2;
-	min-height: 607px;
+	min-height: 658px;
 }
 
 div#sidebar-navbar-collapse {
@@ -238,6 +238,32 @@ p {
     margin-right: 0;
 }
 
+.alert-danger {
+    color: #272222;
+    background-color: #e74c3c;
+    text-align: center;
+    border: none;
+    margin-right: 35%;
+    margin-bottom: 0%;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Behdad-Regular;
+	src: url(font/Behdad-Regular.woff);
+	width: 30%;
+}
+
+.close > a {
+	color: #ffffff;
+}
+
+a.close :hover {
+	color: #ffffff;
+}
+
+a.close :visited {
+	color: #ffffff;
+}
+
 @media(max-width: 767px)
 {
 	.navbar-default{
@@ -273,3 +299,13 @@ p {
 	width: 100%;
 	}
 }
+
+@media(max-width: 767px) {
+	.col-sm-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+}
+

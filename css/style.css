@@ -15,18 +15,28 @@ body {
 .btn-default {
 	background-color: #16a085;
 	border: none;
+	box-shadow: none;
 }
 
 .btn-default:hover {
 	background-color: #16a085;
 	border:none;
 	color: #fff;
+	box-shadow: none;
 }
 
 .btn-default:visited {
 	background-color: #fff;
 	border: none;
 	color: #fff;
+	box-shadow: none;
+}
+
+.btn-default:focus {
+	background-color: #16a085;
+	border:none;
+	color: #fff;
+	box-shadow: none;
 }
 
 input.form-control {
@@ -197,4 +207,30 @@ img {
 	margin: auto;
 	padding-top: 30px;
 	padding-bottom: 15px;
+}
+
+.alert-danger {
+    color: #272222;
+    background-color: #e74c3c;
+    text-align: center;
+    border: none;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Behdad-Regular;
+	src: url(font/Behdad-Regular.woff);
+}
+
+.close > a {
+	color: #ffffff;
+}
+
+a.close :hover {
+	color: #ffffff;
+}
+
+a.close :visited {
+	color: #ffffff;
 }
